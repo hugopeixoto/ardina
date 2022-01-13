@@ -1,0 +1,14 @@
+[package]
+name = "ardina"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rss = "2.0.0"
+reqwest = { version = "0.11.9", features = ["blocking"] }
+diesel = { version = "1.4.8", features = ["sqlite"] }
+toml = "0.4.2"
+serde = { version = "1.0", features = ["derive"] }
+lettre = "0.10.0-rc.4"
